@@ -3,22 +3,26 @@ import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-section section-container" id="contact">
+    <div className="contact-section" id="contact">
       <div className="contact-container">
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:muneebahmed0341@gmail.com" data-cursor="disable">
+                muneebahmed0341@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:03410462813" data-cursor="disable">
+                0341-0462813
               </a>
+            </p>
+            <h4>Address</h4>
+            <p>
+              House # 21, Street # /18C Shibli Town Band Road, Lahore
             </p>
           </div>
           <div className="contact-box">
@@ -58,7 +62,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Designed and Developed <br /> by <span>Muneeb Ahmed</span>
             </h2>
             <h5>
               <MdCopyright /> 2024
